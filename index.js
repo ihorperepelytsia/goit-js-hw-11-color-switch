@@ -32,7 +32,6 @@ function changeBackgroundColor() {
   timerId = setInterval(() => {
     document.body.style.backgroundColor =
       colors[randomIntegerFromInterval(0, colors.length)];
-    console.log(`1`);
   }, 1000);
 }
 
